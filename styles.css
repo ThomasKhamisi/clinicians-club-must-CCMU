@@ -115,7 +115,7 @@ footer {
   color: #7387e4;
   text-align: center;
   padding: 10px;
-  position: relative;
+  position: static;
 }
 
 /* Image styles */

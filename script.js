@@ -16,3 +16,18 @@ function loadContent(pa) {
 document.addEventListener("DOMContentLoaded", function() {
     alert("Welcome to CCMU Website!");
 });
+
+
+        // Fetch the list of uploaded files and display them
+        fetch('/list-files')
+            .then(response => response.json())
+            .then(data => {
+                const fileList = document.getElementById('fileList');
+                data.files.forEach(file => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = file;
+                    fileList.appendChild(listItem);
+                });
+            })
+            .catch(error => console.error('Error fetching file list:', error));
+    

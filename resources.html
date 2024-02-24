@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCMU Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="img/photo.jpg" alt="ccmu.jpg" />
+        <h1> Clinicians Club of Meru University</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+    </nav>
+    <h2>notes upload</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="fileInput">Choose a file to upload:</label>
+        <input type="file" id="fileInput" name="fileInput" accept=".txt, .pdf, .jpg, .png">
+        <button type="submit">Upload</button>
+    </form>
+
+    <h2>Download notes</h2>
+    <ul>
+        <li><a href="/download?filename=file1.txt">Download File 1</a></li>
+        <li><a href="/download?filename="\EXECUTIVE MEMBERS.docx">EXECUTIVE</a></li>
+        <!-- Add more download links as needed -->
+    </ul>
+    <h2>past papers</h2>
+    <p>upload past papers</p>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="fileInput">Choose a file to upload:</label>
+        <input type="file" id="fileInput" name="fileInput" accept=".txt, .pdf, .jpg, .png">
+        <button type="submit">Upload</button>
+    </form>
+    <h2>Download pastpapers</h2>
+    <li><a href="/download?filename=file1.txt">Download File 1</a></li>
+    <li><a href="/download?filename=file2.pdf">Download File 2</a></li>
+
+
+
+    <footer>
+        <p>&copy; 2024 Clinicians Club of Meru University. All rights reserved.</p>
+    </footer>
