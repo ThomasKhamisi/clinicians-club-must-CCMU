@@ -1,185 +1,88 @@
-<!-- contacts.html -->
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>CCMU Website</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
-<header>
-    <img src="img/photo.jpg" alt="ccmu"  />
-       </h1>
-       <h1> Clinicians Club of Meru University</h1>
-</header>
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="history.html">History</a></li>
-        <li><a href="achievements.html">Achievements</a></li>
-        <li><a href="activities.html">Activities</a></li>
-        <li><a href="contacts.html">Contacts</a></li>
-    </ul>
-</nav>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
 
+<body>
 
+    <header>
+        <img src="img/photo.jpg" alt="ccmu" />
+        <h1>Clinicians Club of Meru University</h1>
+    </header>
 
-<section id="contacts">
-    <h2>Contact Us</h2>
-
-    <!-- Add contacts content here -->
-    
-    <section id="contact">
-    
-        
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
         </ul>
+    </nav>
+
+    <section id="contacts">
+        <h2>Contact Us</h2>
+
+        <!-- Add contacts content here -->
+
+        <section id="contact"></section>
     </section>
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact Form</title>
-        <style>
-            body {
-                font-family: 'Arial', sans-serif;
-                background-color: #f4f4f4;
-                margin: 0;
-                padding: 20px;
-            }
-    
-            h1 {
-                text-align: center;
-                color: hsl(228, 24%, 96%);
-            }
-    
-            form {
-                max-width: 400px;
-                margin: 0 auto;
-                background-color: #fff;
-                padding: 20px;
-                border-radius: 8px;
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            }
-    
-            label {
-                display: block;
-                margin-bottom: 10px;
-                font-size: 16px;
-                color: #333;
-            }
-    
-            input,
-            select,
-            textarea {
-                width: 100%;
-                padding: 10px;
-                margin-bottom: 20px;
-                box-sizing: border-box;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-            }
-    
-            select {
-                appearance: none;
-                -webkit-appearance: none;
-            }
-    
-            input[type="submit"],
-            input[type="reset"] {
-                background-color: #3498db;
-                color: #fff;
-                padding: 10px;
-                border: none;
-                cursor: pointer;
-                font-size: 16px;
-                border-radius: 4px;
-            }
-    
-            input[type="reset"] {
-                background-color: #e74c3c;
-                margin-right: 10px;
-            }
-        </style>
-    </head>
-    <body>
-    
-        <h1>Contact Me</h1>
-    
-        <form action="https://formspree.io/f/xrgnedrr" method="post"
-        <form>
+
+    <section>
+        <form action="https://formspree.io/f/xrgnedrr" method="post">
             <br>
-            <label for="First name">firstname:</label>
+            <label for="First name">First name:</label>
             <input type="text" placeholder="First name" name="firstname" required>
-    
             <br>
-    
+
             <label for="lastname">Last name:</label>
             <input type="text" placeholder="Last name" name="lastname" required>
-    
             <br>
-    
+
             <p>
                 <label for="gender">Gender</label>
                 <select name="gender" id="gender" required>
-                    <option value="Male" enabled>Male</option>
-                    <option value="Female" enabled>Female</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
                 </select>
             </p>
-    
+
             <label for="email">Email address:</label>
             <input type="email" name="email" placeholder="example@gmail.com" required>
-    
             <br>
-    
+
             <label for="message">Message:</label>
             <textarea name="message" required></textarea>
-    
             <br>
-    
+
             <input type="reset" value="Clear all" name="reset">
-    
             <br>
-    
+
             <input type="submit" value="Send">
-    
         </form>
-    
-    </body>
-    </html>
-    
-    
-      
-    
-    
-    
+    </section>
 
-    
-    
-    
-    
-    
-    
-    
-</section>
-<footer>
-      <p>
-         <div class="social-icons">
-         <a href="https://www.facebook.com/profile.php?id=61556495285538" class="fa fa-facebook" target="_blank"></a>
-         <a href="https://x.com/MUSTClinicians?t=XDymzW6zYM0A2nfaT880Nw&s=09" class="fa fa-twitter" target="_blank"></a>
-         <a href="https://www.instagram.com/clinicians_club_meru_must" class="fa fa-instagram" target="_blank"></a>
-         <!-- Add more icons and links as needed -->
-         </div 
-      </p>
-        
-    
-        <p>&copy; 2024 Clinicians Club of Meru University. All rights reserved.</p> 
-</footer>
-
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61556495285538" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://x.com/MUSTClinicians?t=XDymzW6zYM0A2nfaT880Nw&s=09" class="fa fa-twitter" target="_blank"></a>
+                <a href="https://www.instagram.com/clinicians_club_meru_must" class="fa fa-instagram" target="_blank"></a>
+                <!-- Add more icons and links as needed -->
+            </div>
+        </div>
+        <p>&copy; 2024 Clinicians Club of Meru University. All rights reserved.</p>
+    </footer>
 
 </body>
+
 </html>
+
 

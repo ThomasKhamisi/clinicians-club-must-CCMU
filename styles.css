@@ -86,14 +86,14 @@ nav a {
 
 /* Styles for links inside div elements */
 ul div li a {
-  color: rgb(124, 123, 212);
+  color: rgb(87, 85, 218);
   display: table-cell;
   vertical-align: middle;
   text-align: center;
   text-decoration: none;
   height: 140px;
   width: 140px;
-  border: 1px solid gray;
+  border: 1px solid rgb(221, 16, 16);
   border-radius: 50%;
 }
 
@@ -111,8 +111,8 @@ section {
 
 /* Footer styles */
 footer {
-  background-color: #d8d679;
-  color: #7387e4;
+  background-color: #e2db09;
+  color: #3855d6;
   text-align: center;
   padding: 10px;
   position: static;
@@ -127,22 +127,53 @@ img {
 }
 
 img:hover {
-  box-shadow: 0 0 2px 1px rgba(197, 201, 202, 0.5);
-}
-.social-icons {
-  margin-top: 20px;
+  box-shadow: 0 0 2px 1px rgba(16, 180, 221, 0.5);
 }
 
-.social-icons a {
-  font-size: 24px;
-  margin-right: 15px;
-  color: #333; /* Adjust the color as needed */
-  text-decoration: none;
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.social-icons a:hover {
-  color: #007bff; /* Change the color on hover */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
 }
 
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 
-  
+select {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+input[type="reset"] {
+  background-color: #e74c3c;
+  margin-right: 10px;
+}
